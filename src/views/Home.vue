@@ -155,13 +155,15 @@
           >, com deploy automático via GitHub.
         </li>
         <li>
-          <strong>Backend:</strong> Hospedado na
+          <strong>Backend:</strong> Hospedado em uma instância da
           <a
-            href="https://render.com"
+            href="https://www.oracle.com/br/cloud/"
             class="text-blue-600 underline"
             target="_blank"
-            >Render</a
-          >, com variáveis de ambiente protegidas e integração com o Git.
+            >Oracle Cloud</a
+          >, utilizando <strong>Nginx</strong> como servidor reverso e
+          <strong>Certbot</strong> com <strong>Let's Encrypt</strong> para
+          fornecer HTTPS gratuito e seguro.
         </li>
       </ul>
     </section>
